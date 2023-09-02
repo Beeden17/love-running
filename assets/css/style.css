@@ -41,3 +41,8 @@ main { background-color: lightblue;
 }
 /* Footer */
 footer { background-color: orange;}
+#menu {
+    font-size: 110%;
+    word-spacing: 4px;
+    list-style-type: none;
+}
