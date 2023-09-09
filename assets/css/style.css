@@ -182,6 +182,21 @@ main { /* Make main element take up any space to push dow footer */
         width: 300px;
         right: 50px;
     }
+    /* Reasons section */
+    #benefits-mental,
+     #benefits-physical {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+        #benefits-mental > div,
+        #benefits-physical > div {
+            width: 75%;
+        }
+        #benefits-mental>div {
+            text-align: end;
+            align-self: flex-end;
+        }
     }
     @media screen and (min-width: 992px ) {
         /* Large devices (laptops and desktops 992px and above) */
